@@ -1,0 +1,24 @@
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .galeria-item {
+    text-align: center;
+  }
+  
+  .galeria-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .galeria-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  

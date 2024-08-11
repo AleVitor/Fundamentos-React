@@ -1,0 +1,23 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './main.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+
+function calcularPrecoTotal(preco, quantidade){
+  return preco * quantidade;
+}
+
+function Main(){
+  const preco = 25;
+  const quantidade = 7;
+  const total = calcularPrecoTotal(preco, quantidade);
+  console.log(total);
+}
+
+Main();
